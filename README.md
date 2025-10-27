@@ -1,6 +1,6 @@
 ## VAR-IRF
 
-Impulse Response Function (IRF) utilities for VAR models with plotting helpers. Extracted from the workflow in `test.ipynb`.
+Impulse Response Function (IRF) utilities for VAR models with plotting helpers. Extracted from the workflow in `Tutorial.ipynb`.
 
 ### Installation
 
@@ -48,8 +48,6 @@ plt.show()
   - direction: single A→B or bidirectional.
   - band: shaded (gradient) or interval (errorbar-like); set `shaded=False` for line-only.
   - layout: overlay in one axes or side-by-side two subplots.
-- `plot_irf_from_dataframe(...)`：
-  直接从 DataFrame 计算并绘图。
 
 ### License
 
