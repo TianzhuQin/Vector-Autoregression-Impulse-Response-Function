@@ -5,10 +5,8 @@ Impulse Response Function (IRF) utilities for VAR models with plotting helpers. 
 ### Installation
 
 ```bash
-pip install .
+pip install var-irf
 ```
-
-Once published to PyPI: `pip install var-irf`.
 
 Repository: `https://github.com/TianzhuQin/Vector-Autoregression-Impulse-Response-Function`
 
