@@ -10,6 +10,8 @@ pip install var-irf
 
 Repository: `https://github.com/TianzhuQin/Vector-Autoregression-Impulse-Response-Function`
 
+Paper: [Hug fans or follow celebrities? How nationalism is reinforced on Chinese social media](https://www.science.org/doi/10.1126/sciadv.adu8241)
+
 ### Method summary (from the notebook)
 
 - Fit a VAR(p) with `statsmodels.tsa.api.VAR(df).fit(lags)`.
@@ -51,4 +53,23 @@ plt.show()
 
 MIT
 
+
+### Citation
+
+If you use this package in your research, please cite:
+
+```bibtex
+@article{
+  HongKimZhangQin2025,
+  author = {Hong, Ji Yeon and Kim, Yong H. and Zhang, Han and Qin, Tianzhu},
+  title = {Hug fans or follow celebrities? How nationalism is reinforced on Chinese social media},
+  journal = {Science Advances},
+  year = {2025},
+  volume = {11},
+  number = {45},
+  pages = {eadu8241},
+  doi = {10.1126/sciadv.adu8241},
+  url = {https://www.science.org/doi/10.1126/sciadv.adu8241}
+}
+```
 
